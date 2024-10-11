@@ -5,6 +5,10 @@
 
 import ClickCounter from "./Components/UseCallback/Example1";
 import SearchBar from "./Components/UseCallback/Example2";
+import Timer from "./Components/UseEffect/Example2";
+import WeatherData from "./Components/UseEffect/Example3";
+import WindpwWidth from "./Components/UseEffect/Example4";
+import CounterWithTitle from "./Components/UseEffect/Example5";
 import ExpensiveCalucation from "./Components/UseMemo/Example1";
 import ShoppingCart from "./Components/UseReducer/Example2";
 import InputWithfocus from "./Components/UseRef/Example1";
@@ -40,7 +44,11 @@ function App() {
       {/* <Likes /> */}
       {/* <TemperatureCon /> */}
       {/* <Develop /> */}
-      <BgChanger />
+      {/* <BgChanger /> */}
+      {/* <Timer /> */}
+      {/* <WeatherData /> */}
+      {/* <WindpwWidth /> */}
+      <CounterWithTitle />
     </div>
   );
 }
