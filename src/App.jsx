@@ -12,6 +12,11 @@ import CounterUsingref from "./Components/UseRef/Example2";
 import InputWithPreviousValue from "./Components/UseRef/Example3";
 import Tracking from "./Components/UseRef/Example3";
 import Counter from "./Components/UseState/Example1";
+import Displayed from "./Components/UseState/Example2";
+import Likes from "./Components/UseState/Example3";
+import TemperatureCon from "./Components/UseState/Example4";
+import Develop from "./Components/UseState/Example5";
+import BgChanger from "./Components/UseState/Example6";
 
 // import { ProductsList } from "./Components/UseContext/Products/ProductsList";
 
@@ -30,8 +35,12 @@ function App() {
       {/* <ExpensiveCalucation /> */}
       {/* <InputWithfocus /> */}
       {/* <CounterUsingref /> */}
-      <Tracking />
-     
+      {/* <Tracking /> */}
+      {/* <Displayed /> */}
+      {/* <Likes /> */}
+      {/* <TemperatureCon /> */}
+      {/* <Develop /> */}
+      <BgChanger />
     </div>
   );
 }

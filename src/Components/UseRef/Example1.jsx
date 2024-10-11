@@ -17,4 +17,4 @@ function InputWithfocus() {
   );
 }
 
-export default InputWithfocus
+export default InputWithfocus;
